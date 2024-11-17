@@ -31,7 +31,7 @@ The `task1.py` script visualizes the Rosenbrock function in both 2D and 3D, whil
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/Abdo-2024/rosenbrock-optimization.git
+   git clone https://github.com/Abdo-2024/B1.2-coding-practical-mt24.git
 
 2. Navigate to the project directory:
 
@@ -68,19 +68,19 @@ python main.py
 
 ## Optimization Algorithms
 
-# Gradient Descent
+### Gradient Descent
 
 Gradient Descent is a first-order optimization algorithm that updates parameters iteratively in the direction of the negative gradient of the function. It is used here to optimize the Rosenbrock function by updating the parameters using the gradient.
 
-# Newton's Method
+### Newton's Method
 
 Newton's Method is a second-order optimization technique that uses both the gradient and the Hessian matrix (second derivatives) to find the minimum. In this project, it is used to optimize the Rosenbrock function.
 
-# Gauss-Newton
+### Gauss-Newton
 
 The Gauss-Newton method is a variation of Newton's method that is specifically designed for non-linear least squares problems. In this project, it is applied to minimize the Rosenbrock function by approximating the Hessian matrix.
 
-# Nelder-Mead Simplex
+### Nelder-Mead Simplex
 
 The Nelder-Mead method is a direct search method that does not require the gradient or Hessian of the function. It uses the geometry of the function's space to find the optimal point.
 
